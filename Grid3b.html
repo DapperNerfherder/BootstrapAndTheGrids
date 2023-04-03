@@ -64,30 +64,46 @@
 
   <main class="flex-shrink-0">
     <div class="container h-100 minHeight">
+        <ul class="nav nav-pills mb-1">
+          <li class="nav-item">
+            <a href="Grid3.html" class="nav-link" aria-current="page">Grid3</a>
+          </li>
+          <li class="nav-item">
+            <a href="Grid3b.html" class="nav-link active" aria-current="page">Grid3b</a>
+          </li>
+        </ul>
         <div class="row h-100">
             <!--LEFT COLUMN-->
             <div class="col-7">
                 <div class="bg-secondary text-white h-100 p-3">
                     <h1>Article Title</h1>
-                    <p>Lorem ipsum dolor sit amet. Sit iste velit sed dolorem pariatur eos distinctio beatae qui accusantium nihil ut quam consectetur. Ut soluta ratione rem quae rerum eos maxime voluptatem 33 culpa voluptatem vel officia eaque. </p><p>Ad sint enim aut alias voluptatem aut itaque reiciendis et atque nisi ea perferendis laboriosam in sunt dolores qui illum impedit! Ad mollitia dolor et deserunt natus ut asperiores perspiciatis ut minus earum sed nesciunt sint aut repudiandae omnis qui consequatur veniam. Ut rerum rerum sit eaque excepturi sit culpa maxime. </p><p>Aut nulla dolores sed voluptatum natus non magnam consequatur. Est voluptates animi aut necessitatibus praesentium qui consequatur commodi. </p>
-
+                    <p>Lorem ipsum dolor sit amet. Sit iste velit sed dolorem pariatur eos distinctio beatae qui accusantium nihil ut quam consectetur. Ut soluta ratione rem quae rerum eos maxime voluptatem 33 culpa voluptatem vel officia eaque. </p><p>Ad sint enim aut alias voluptatem aut itaque reiciendis et atque nisi ea perferendis laboriosam in sunt dolores qui illum impedit! Ad mollitia dolor et deserunt natus ut asperiores perspiciatis ut minus earum sed nesciunt sint aut repudiandae omnis qui consequatur veniam. Ut rerum rerum sit eaque excepturi sit culpa maxime. </p>
                 </div>
             </div>
             <!--RIGHT COLUMN-->
-            <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+            <div class="col-5">
                 <!--RIGHT TOP COLUMN-->
-                <div class="bg-dark text-light h-50 p-2 overflow-auto">
-                    <p>Lorem ipsum dolor sit amet. Sit iste velit sed dolorem pariatur eos distinctio beatae qui accusantium nihil ut quam consectetur. Ut soluta ratione rem quae rerum eos maxime voluptatem 33 culpa voluptatem vel officia eaque. </p><p>Ad sint enim aut alias voluptatem aut itaque reiciendis et atque nisi ea perferendis laboriosam in sunt dolores qui illum impedit! Ad mollitia dolor et deserunt natus ut asperiores perspiciatis ut minus earum sed nesciunt sint aut repudiandae omnis qui consequatur veniam. Ut rerum rerum sit eaque excepturi sit culpa maxime. </p><p>Aut nulla dolores sed voluptatum natus non magnam consequatur. Est voluptates animi aut necessitatibus praesentium qui consequatur commodi. </p>
-
+                <div class="bg-secondary text-light p-2 overflow-auto">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
                 </div>
                 <!--RIGHT BOTTOM COLUMN-->
-                <div class="bg-dark text-light h-50 mt-2 p-2">
-                    <p>Lorem ipsum dolor sit amet. Sit iste velit sed dolorem pariatur eos distinctio beatae qui accusantium nihil ut quam consectetur. Ut soluta ratione rem quae rerum eos maxime voluptatem 33 culpa voluptatem vel officia eaque. </p><p>Ad sint enim aut alias voluptatem aut itaque reiciendis et atque nisi ea perferendis laboriosam in sunt dolores qui illum impedit! Ad mollitia dolor et deserunt natus ut asperiores perspiciatis ut minus earum sed nesciunt sint aut repudiandae omnis qui consequatur veniam. Ut rerum rerum sit eaque excepturi sit culpa maxime. </p><p>Aut nulla dolores sed voluptatum natus non magnam consequatur. Est voluptates animi aut necessitatibus praesentium qui consequatur commodi. </p>
-
-                </div>
-                <div class="bg-dark text-light border border-top p-2">
-                    <button class="btn btn-light" type="button">Read More</button>
-                </div>
+                <div class="bg-dark text-light mt-2 p-2">
+                    <div style="font-size: larger;">More Articles</div>
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Article 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Article 2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Article 3</a>
+                      </li>
+                    </ul>
+                </div>                
             </div>
         </div>
     </div>
